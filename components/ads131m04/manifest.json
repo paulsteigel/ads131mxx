@@ -1,0 +1,17 @@
+{
+    "name": "ADS131MXX",
+    "version": "1.0",
+    "build_with": "arduino",
+    "render_readme": true,
+    "new_install_prompt_enabled": true,
+    "description": "This custom component is written to be used for the ADS131MXX 4-Channel, Simultaneous Sampling, 24-Bit, Delta-Sigma ADC for interfacing with ESPHome.",
+    "frameworks": [
+      "arduino"
+    ],
+    "home_assistant_domain": "sensor",
+    "codeowners": [],
+    "dependencies": [
+      "SPI",
+      "FS"
+    ]
+  }
